@@ -28,6 +28,7 @@ class _HiveTodoState extends State<HiveTodo> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
         title: Text('My Task'),
       ),
